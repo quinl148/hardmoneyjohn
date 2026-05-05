@@ -59,9 +59,14 @@ const typeLabel: Record<string, string> = {
   REFINANCE: "REFI",
 }
 
+const INITIAL_COUNT = 12
+
 export function Deals() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const [expanded, setExpanded] = useState(false)
+
+  const visibleDeals = expanded ? deals : deals.slice(0, INITIAL_COUNT)
 
   return (
     <section id="deals" className="py-24 bg-background">
@@ -79,7 +84,7 @@ export function Deals() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {deals.map((deal, index) => (
+          {visibleDeals.map((deal, index) => (
             <DealCard key={index} deal={deal} index={index} isInView={isInView} />
           ))}
         </div>
@@ -90,13 +95,13 @@ export function Deals() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-center mt-12"
         >
-          <a
-            href="#contact"
+          <button
+            onClick={() => setExpanded(!expanded)}
             className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
           >
-            View All Deals
-            <ArrowRight size={18} />
-          </a>
+            {expanded ? "Show Less" : `See All ${deals.length} Deals`}
+            <ArrowRight size={18} className={`transition-transform duration-300 ${expanded ? "rotate-90" : ""}`} />
+          </button>
         </motion.div>
       </div>
     </section>
