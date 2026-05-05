@@ -99,7 +99,7 @@ export function Deals() {
             onClick={() => setExpanded(!expanded)}
             className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
           >
-            {expanded ? "Show Less" : `See All ${deals.length} Deals`}
+            {expanded ? "Show Less" : "See All Deals"}
             <ArrowRight size={18} className={`transition-transform duration-300 ${expanded ? "rotate-90" : ""}`} />
           </button>
         </motion.div>
