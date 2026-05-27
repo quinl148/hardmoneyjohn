@@ -7,6 +7,7 @@ import { ArrowRight } from "lucide-react"
 
 const dealsRaw = [
   { image: "/images/deals/3723-w-michael-dr-site-photo.jpg", type: "REFINANCE", amount: "$2,700,000", city: "Teton", state: "WY" },
+  { image: "/images/deals/1532-oklahoma-site-photo.png", type: "PURCHASE", amount: "$2,800,000", city: "Milwaukee", state: "WI" },
   { image: "/images/deals/nw-17th-ave-site-photo.jpg", type: "REFINANCE", amount: "$18,500,000", city: "Miami", state: "FL" },
   { image: "/images/deals/nw-17th-ave-site-photo.jpg", type: "REFINANCE", amount: "$9,500,000", city: "Miami", state: "FL" },
   { image: "/images/deals/9601-atlantic-avenue-unit-207-site-photo.jpg", type: "REFINANCE", amount: "$780,000", city: "Wildwood", state: "NJ" },
