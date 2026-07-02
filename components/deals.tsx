@@ -6,6 +6,7 @@ import { useRef, useState } from "react"
 import { ArrowRight } from "lucide-react"
 
 const dealsRaw = [
+  { image: "/images/deals/100 Post Road Photo.jpg", type: "PURCHASE", amount: "$3,165,000", city: "Mays Landing", state: "NJ" },
   { image: "/images/deals/3723-w-michael-dr-site-photo.jpg", type: "REFINANCE", amount: "$2,700,000", city: "Teton", state: "WY" },
   { image: "/images/deals/1532-oklahoma-site-photo.png", type: "PURCHASE", amount: "$2,800,000", city: "Milwaukee", state: "WI" },
   { image: "/images/deals/nw-17th-ave-site-photo.jpg", type: "REFINANCE", amount: "$18,500,000", city: "Miami", state: "FL" },
@@ -43,6 +44,13 @@ const dealsRaw = [
   { image: "/images/deals/5811-w-thurston-avenue-site-photo.jpg", type: "PURCHASE", amount: "$68,800", city: "Milwaukee", state: "WI" },
   { image: "/images/deals/129-williams-road-site-photo.jpg", type: "PURCHASE", amount: "$129,250", city: "Bessemer City", state: "NC" },
   { image: "/images/deals/1211-26th-street-site-photo.jpg", type: "PURCHASE", amount: "$128,000", city: "Manistee", state: "MI" },
+  { image: "/images/deals/6535 N Adrian Hwy.jpeg", type: "REFINANCE", amount: "$162,000", city: "Tecumseh", state: "MI" },
+  { image: "/images/deals/2436 N 16th St.jpg", type: "PURCHASE", amount: "$132,000", city: "Milwaukee", state: "WI" },
+  { image: "/images/deals/10830 Mckinney St.jpg", type: "PURCHASE", amount: "$72,000", city: "Detroit", state: "MI" },
+  { image: "/images/deals/21965 W North Ave.jpg", type: "PURCHASE", amount: "$110,000", city: "Brookfield", state: "WI" },
+  { image: "/images/deals/4310 Devonshire Rd.jpg", type: "PURCHASE", amount: "$136,250", city: "Detroit", state: "MI" },
+  { image: "/images/deals/4715 Lumley St.jpg", type: "PURCHASE", amount: "$73,250", city: "Detroit", state: "MI" },
+  { image: "/images/deals/14750 schreiber rd.jpg", type: "PURCHASE", amount: "$121,200", city: "Maple Heights", state: "OH" },
 ]
 
 const deals = [...dealsRaw].sort((a, b) => {
