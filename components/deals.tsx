@@ -140,7 +140,7 @@ function DealCard({
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-        style={{ backgroundImage: `url(${deal.image})` }}
+        style={{ backgroundImage: `url(${encodeURI(deal.image)})` }}
       />
 
       {/* Gradient Overlay */}
