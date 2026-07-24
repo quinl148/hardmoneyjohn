@@ -51,6 +51,14 @@ const dealsRaw = [
   { image: "/images/deals/4310 Devonshire Rd.jpg", type: "PURCHASE", amount: "$136,250", city: "Detroit", state: "MI" },
   { image: "/images/deals/4715 Lumley St.jpg", type: "PURCHASE", amount: "$73,250", city: "Detroit", state: "MI" },
   { image: "/images/deals/14750 schreiber rd.jpg", type: "PURCHASE", amount: "$121,200", city: "Maple Heights", state: "OH" },
+  { image: "/images/deals/1909 Bearberry Lane.jpg", type: "REFINANCE", amount: "$690,000", city: "Asheville", state: "NC" },
+  { image: "/images/deals/5 Bevan Pl.jpg", type: "REFINANCE", amount: "$85,000", city: "Eastchester", state: "NY" },
+  { image: "/images/deals/5863 S Hately Ave.jpg", type: "PURCHASE", amount: "$230,940", city: "Cudahy", state: "WI" },
+  { image: "/images/deals/2935 N Vel R Phillips Ave.jpg", type: "PURCHASE", amount: "$117,430", city: "Milwaukee", state: "WI" },
+  { image: "/images/deals/369 Linden St.webp", type: "PURCHASE", amount: "$184,500", city: "Fond du Lac", state: "WI" },
+  { image: "/images/deals/2400 W Edgerton.jpg", type: "PURCHASE", amount: "$212,800", city: "Milwaukee", state: "WI" },
+  { image: "/images/deals/409 E Everett.jpg", type: "PURCHASE", amount: "$96,100", city: "Marion", state: "IL" },
+  { image: "/images/deals/202 156th Pl.webp", type: "PURCHASE", amount: "$198,000", city: "Calumet City", state: "IL" },
 ]
 
 const deals = [...dealsRaw].sort((a, b) => {
