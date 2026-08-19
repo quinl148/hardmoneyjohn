@@ -59,6 +59,10 @@ const dealsRaw = [
   { image: "/images/deals/2400 W Edgerton.jpg", type: "PURCHASE", amount: "$212,800", city: "Milwaukee", state: "WI" },
   { image: "/images/deals/409 E Everett.jpg", type: "PURCHASE", amount: "$96,100", city: "Marion", state: "IL" },
   { image: "/images/deals/202 156th Pl.webp", type: "PURCHASE", amount: "$198,000", city: "Calumet City", state: "IL" },
+  { image: "/images/deals/2980 Sunshine Terrace.png", type: "PURCHASE", amount: "$172,800", city: "Waterford", state: "MI" },
+  { image: "/images/deals/90 Emmans Rd.jpg", type: "REFINANCE", amount: "$495,000", city: "Ledgewood", state: "NJ" },
+  { image: "/images/deals/603 N Henry St.png", type: "PURCHASE", amount: "$86,000", city: "Bay City", state: "MI" },
+  { image: "/images/deals/110 N Judson St.png", type: "PURCHASE", amount: "$360,000", city: "Wisconsin Dells", state: "WI" },
 ]
 
 const deals = [...dealsRaw].sort((a, b) => {
