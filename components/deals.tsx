@@ -65,6 +65,13 @@ const dealsRaw = [
   { image: "/images/deals/110 N Judson St.png", type: "PURCHASE", amount: "$360,000", city: "Wisconsin Dells", state: "WI" },
   { image: "/images/deals/3221 Barth St.jpg", type: "PURCHASE", amount: "$81,250", city: "Flint", state: "MI" },
   { image: "/images/deals/5710 Haverhill St.webp", type: "PURCHASE", amount: "$90,000", city: "Detroit", state: "MI" },
+  { image: "/images/deals/san-diego.webp", type: "PURCHASE", amount: "$6,500,000", city: "San Diego", state: "CA" },
+  { image: "/images/deals/brookfield.png", type: "REFINANCE", amount: "$3,000,000", city: "Brookfield", state: "WI" },
+  { image: "/images/deals/roseville.jpeg", type: "REFINANCE", amount: "$231,000", city: "Roseville", state: "MI" },
+  { image: "/images/deals/shelby.jpeg", type: "PURCHASE", amount: "$101,000", city: "Shelby", state: "NC" },
+  { image: "/images/deals/brunswick.jpeg", type: "PURCHASE", amount: "$100,750", city: "Brunswick", state: "GA" },
+  { image: "/images/deals/milwaukee-12th.jpeg", type: "PURCHASE", amount: "$97,500", city: "Milwaukee", state: "WI" },
+  { image: "/images/deals/milwaukee-49th.jpeg", type: "REFINANCE", amount: "$60,000", city: "Milwaukee", state: "WI" },
 ]
 
 const deals = [...dealsRaw].sort((a, b) => {
